@@ -69,8 +69,7 @@ black.addEventListener('click', function(){
 	black.style.transform = 'translateX(100px)';
 	body.style.background = 'black';
 });
-orange.addEventListener('click', function(el){
-	el.style.display = (el.style.display == 'none') ? '' : 'none'
+orange.addEventListener('click', function(){
 	orange.style.transform = 'translateX(100px)';
 	body.style.background = 'orange';
 });
